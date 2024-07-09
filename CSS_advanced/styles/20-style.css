@@ -329,7 +329,7 @@ ul.row {
 	padding: 0.5rem;
 }
 
-.footer-copyrigth {
+.footer-copyright {
 	margin: 0;
 	font-size: var(--font-size-small);
 	color: var(--text-color);
@@ -337,4 +337,10 @@ ul.row {
 
 .footer ul {
 	text-align: right;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
 }
