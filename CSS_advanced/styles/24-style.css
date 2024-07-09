@@ -341,6 +341,18 @@ ul.row {
 	text-align: right;
 }
 
+.footer-adress {
+	color: var(--text-color);
+}
+
+.social-link {
+	display: block;
+}
+
+.social-link > svg{
+    fill: var(--text-color);
+}
+
 .row::after {
 	content: "";
 	display: table;
@@ -353,14 +365,3 @@ ul.row {
 	background-color: var(--color-black);
 }
 
-.footer-adress {
-	color: var(--text-color);
-}
-
-.social-link {
-	display: block;
-}
-
-.social-link > svg{
-    fill: var(--text-color);
-}
